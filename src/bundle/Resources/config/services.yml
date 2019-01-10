@@ -1,0 +1,12 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    MateuszBieniek\EzPlatformFormBuilderCountry\FormBuilder\Field\Mapper\CountryMapper:
+        arguments:
+            $fieldIdentifier: 'country'
+            $formType: 'MateuszBieniek\EzPlatformFormBuilderCountry\Form\Type\CountryFieldType'
+        tags:
+            - { name: ezplatform.form_builder.field_mapper }

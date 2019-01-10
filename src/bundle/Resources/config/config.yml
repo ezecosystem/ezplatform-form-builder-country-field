@@ -1,0 +1,12 @@
+twig:
+    form_themes:
+        - '@EzPlatformFormBuilderCountry/form/fields.html.twig'
+
+ez_platform_form_builder:
+    fields:
+        country:
+            name: 'Country'
+            category: 'Basic form fields'
+            thumbnail: '/bundles/ezplatformadminui/img/ez-icons.svg#languages'
+            validators:
+                required: ~

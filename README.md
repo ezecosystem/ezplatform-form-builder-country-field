@@ -3,7 +3,7 @@
 Bundle provides country selection field for the Form Builder in eZ Platform EE. 
 
 ## Installation
-### 1. Enable EzPlatformFormBuilderCountryBundle
+### 1. Enable `EzPlatformFormBuilderCountryBundle`
 Edit `app/AppKernel.php`, and add 
 ```
 new MateuszBieniek\EzPlatformFormBuilderCountryBundle\EzPlatformFormBuilderCountryBundle(),
